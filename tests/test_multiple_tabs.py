@@ -1,6 +1,7 @@
 from playwright.sync_api import Page, expect
 
 def test_multiple_tabs(page: Page):
+    
     #step 1: open first website
     page.goto("https://example.com")
     #Verify the first webpage

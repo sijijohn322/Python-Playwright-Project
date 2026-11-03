@@ -2,6 +2,7 @@
 from playwright.sync_api import expect 
 
 def test_radio_buttons(page):
+    
     #Step 1: Open radio button URL
     page.goto("https://practice.expandtesting.com/radio-buttons")
     

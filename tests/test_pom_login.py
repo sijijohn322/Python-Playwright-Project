@@ -3,6 +3,7 @@ from playwright.sync_api import Page, expect
 from pages.login_page import LoginPage
 
 def test_successful_login(page: Page):
+    
     #Create the page object
     login_page = LoginPage(page)
     #Open the application

@@ -1,6 +1,7 @@
 #Expect assertions in Playwright
 from playwright.sync_api import expect
 
+
 def test_successful_login(page):
     page.goto("https://the-internet.herokuapp.com/login")
     page.locator("#username").fill("tomsmith")

@@ -15,6 +15,7 @@ def test_extract_heading(page):
     page.goto("https://the-internet.herokuapp.com/")
     heading = page.locator("h2").text_content()
     print(heading)
+    
 #Using expect() for URL 
 from playwright.sync_api import expect 
 

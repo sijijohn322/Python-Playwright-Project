@@ -1,4 +1,5 @@
 #Example: Click a Button
+
 from playwright.sync_api import expect
 def test_click_button(page):
     page.goto("https://www.playwrightautomation.com/practice.html")

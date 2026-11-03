@@ -1,5 +1,6 @@
 from playwright.sync_api import expect 
 
+
 def test_wait_for_url(page):
     page.goto("https://the-internet.herokuapp.com/login")
     page.locator("#username").fill("tomsmith")

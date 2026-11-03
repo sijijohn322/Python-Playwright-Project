@@ -1,5 +1,6 @@
 from playwright.sync_api import expect
 def test_native_dropdown(page):
+    
     #Step 1: Open URL
     page.goto("https://practice.expandtesting.com/dropdown")
     

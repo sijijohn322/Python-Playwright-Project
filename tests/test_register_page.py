@@ -1,6 +1,7 @@
 from playwright.sync_api import Page, expect
 
 def test_zoom_meeting_registration(page: Page):
+    
     #Step 1: Open Zoom registration page
     page.goto("https://ust.zoom.us/meeting/register/wROkcnzOSO2Z7jeg-vMTPA#/registration")
     

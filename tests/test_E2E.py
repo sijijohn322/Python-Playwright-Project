@@ -1,7 +1,6 @@
 #Test1: Login and View Products
 #Test2: Loign and add product to the cart
 #Test3: Login and remove a product 
-
 from playwright.sync_api import Page, expect 
 def login(page: Page, username: str, password: str) -> None:
     page.goto("https://www.saucedemo.com/")

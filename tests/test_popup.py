@@ -2,6 +2,7 @@ from pathlib import Path
 from playwright.sync_api import expect 
 
 def test_popup_window(page):
+    
     #Step 1: Open the local popup practice html code
     html_file = Path(__file__).with_name("popup_practice.html")
     page.goto(html_file.resolve().as_uri())

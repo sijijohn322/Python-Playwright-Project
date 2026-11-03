@@ -17,7 +17,6 @@ from playwright.sync_api import sync_playwright, expect
 
 from playwright.sync_api import Page, expect
 
-
 def test_login(page: Page) -> None:
     page.goto("https://www.saucedemo.com/")
 

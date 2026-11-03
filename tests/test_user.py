@@ -28,7 +28,6 @@ def test_square(number, expected):
     assert number * number == expected
 
 #Markers - Organizing tests into categories 
-
 #Smoke test: Quick checks of essential functionality
 #Regression tests: Checks that existing functionality still
 #work
